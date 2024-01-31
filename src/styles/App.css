@@ -1,6 +1,5 @@
 .App {
-  background-color: salmon;
-  max-width: 200px;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  align-items: center;
 }

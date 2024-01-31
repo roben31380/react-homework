@@ -1,12 +1,10 @@
 import './styles/App.css';
-import Logo from './components/Logo';
-import Counters from './components/Counter';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
     <div className="App">
-      <Logo />
-      <Counters />
+      <Gallery />
     </div>
   );
 }
