@@ -1,4 +1,4 @@
-import './index.css';
+import './styles/index.css';
 // import React from 'react';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
@@ -11,6 +11,7 @@ if (domElement) {
 
   reactDomElement.render(
     <StrictMode>
-    <App />
-  </StrictMode>);
+      <App />
+    </StrictMode>
+  );
 }
